@@ -1,9 +1,8 @@
-import Link from "next/link"
+import Hero from "@/components/hero"
+import reliabilityImg from "public/images/reliability.jpg"
 
 export default function Reliability() {
     return (
-     <div>
-      
-      <h1>Reliability Page</h1></div>
+      <Hero imgData={reliabilityImg} imgAlt="reliability" title="A Reliable Partner in an Unreliable World"/>
     )
   }

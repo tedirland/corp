@@ -1,9 +1,9 @@
-import Link from "next/link"
+import Hero from "@/components/hero"
+import perfImage from "public/images/performance.jpg"
 
 export default function Performance() {
     return (
-     <div>
-      <h1>Performance Page</h1></div>
+     <Hero imgData={perfImage} imgAlt="performance" title="Efficiency Driving Results"/>
     )
   }
   
